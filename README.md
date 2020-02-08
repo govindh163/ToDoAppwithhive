@@ -1,7 +1,7 @@
 #TODO With HIVE
 
 App for record your activity with your voice
-
+for learning the code
 
 # Screenshot Application 
 
