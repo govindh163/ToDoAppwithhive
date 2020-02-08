@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import 'package:app_provider/app_provider/task_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
@@ -62,7 +61,7 @@ class _CardEvenCustomState extends State<CardEvenCustom> {
     }
 
     return InkResponse(
-      onLongPress: () => showDialog(
+      onTap: () => showDialog(
         context: context,
         child: DialogConfirmDelete(
             title: widget.titleTask,
